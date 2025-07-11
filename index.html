@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Tailwind Practice</title>
+  </head>
+  <body class="text-slate-900 min-h-screen relative text-sm sm:text-base bg-bg-whole">
+    <header class="flex justify-between p-8 gap-8 max-w-5xl mx-auto">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-logo">Auckland Maths Tutoring</h1>
+       <!--button here-->
+      <div class="flex justify-between items-center fixed right-8 top-7">
+        <button class="bg-slate-100 h-full whitespace-nowrap px-2 py-2 rounded-2xl shadow-md shadow-blue-200 cursor-pointer hover:shadow-none outline-none active:bg-cyan-100">Book a session</button>
+      </div>
+    </header>
+
+
+    <!--main section here-->
+    <main class="flex flex-col">
+      <section id="hero" class="flex flex-col gap-8 px-2 sm:px-4 md:px-6 py-14 sm:py-18 md:py-24 max-w-5xl mx-auto">
+        <div class="text-center font-medium flex flex-col gap-4">
+          <h2 class="font-mono text-xl sm:text-2xl md:text-3xl" >Achievement Into Excellence</h2>
+          <h4 class="font-mono text-lg sm:text-xl md:text-2xl">and beyond</h4>
+        </div>
+        <p class="text-center">
+          <span class="font-extrabold">Book a one-on-one private maths lesson</span> with James, a
+          qualified Engineer and Math Teacher with over 13 years of tutoring
+          experience.
+        </p>
+        <div class="flex justify-center items-center gap-4 flex-wrap">
+          <div class="border px-3 py-1 rounded-2xl bg-slate-100 shadow-xl shadow-cyan-100 hover:shadow-cyan-200 hover:transition-all font-extralight text-blue-400">NCEA IB & Cambridge</div>
+          <div class="border px-3 py-1 rounded-2xl bg-slate-100 shadow-xl shadow-cyan-100 hover:shadow-cyan-200 hover:transition-all font-extralight text-blue-400">Years 5 - 13</div>
+          <div class="border px-3 py-1 rounded-2xl bg-slate-100 shadow-xl shadow-cyan-100 hover:shadow-cyan-200 hover:transition-all font-extralight text-blue-400">In-person & Online</div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-fit mx-auto my-6">
+          <button class="border border-gray-300 px-4 py-2 cursor-pointer hover:bg-cyan-50">What I teach</button>
+          <button class="border border-gray-300 px-4 py-2 cursor-pointer hover:bg-cyan-50">Book a session</button>
+        </div>
+        <div class="flex flex-col gap-3 justify-center items-center w-fit mx-auto">
+          <p class="text-sm font-serif shadow p-2 rounded-xl">Scroll for more</p>
+          <div class="h-[100px] w-[1px] bg-gradient-to-b from-slate-400 to-transparent"></div>
+        </div>
+      </section>
+      <!--maths section-->
+      <section id="maths" class="bg-slate-950 text-white">
+        <div class="max-w-5xl px-2 sm:px-4 md:px-6 py-8 mx-auto flex flex-col">
+          <p class="border border-blue-500 text-center mx-auto w-fit px-6 py-3 rounded-full shadow-sm shadow-gray-50  text-blue-600">from catch up to acceleration</p>
+          <div class="flex flex-col gap-4 text-center my-6">
+            <h3 class="font-medium text-2xl sm:text-4xl md:text-6xl font-serif">What I Teach</h3>
+            <p class="">I have the experience to teach you what you need to know</p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-10 my-10">
+            <div class="card-base group">
+              <h4 class="card-child group-hover:border-blue-400 group-hover:text-green-400 ">NCEA</h4>
+              <p>&rarr; Personalized support for Levels 1, 2, and 3</p>
+              <p>&rarr; Focus on internal assessments, exams, and credits</p>
+              <p>
+                &rarr; Assistance with problem-solving techniques and past exam
+                papers
+              </p>
+              <p>&rarr; Guidance on achieving Merit and Excellence standards</p>
+            </div>
+            <div class="card-base group">
+              <h4 class="card-child group-hover:border-blue-400 group-hover:text-green-400">IB</h4>
+              <p>&rarr; Help with SL and HL maths curriculum</p>
+              <p>
+                &rarr; Tailored guidance for Internal Assessments (IA) and exam
+                preparation
+              </p>
+              <p>
+                &rarr; In-depth support for core concepts and optional topics
+              </p>
+              <p>
+                &rarr; Effective strategies for high achievement in assessments
+              </p>
+            </div>
+            <div class="card-base group">
+              <h4 class="card-child group-hover:border-blue-400 group-hover:text-green-400">Cambridge</h4>
+              <p>&rarr; Tutoring for IGCSE, AS, and A-Level maths</p>
+              <p>&rarr; Expert help with structured revision for exams</p>
+              <p>
+                &rarr; Targeted support for past papers, exam techniques, and
+                challenging topics
+              </p>
+              <p>
+                &rarr; Focus on problem-solving, reasoning, and conceptual
+                understanding
+              </p>
+            </div>
+            <div class="card-base group">
+              <h4 class="card-child group-hover:border-blue-400 group-hover:text-green-400">General</h4>
+              <p>&rarr; Foundational maths support for all age groups</p>
+              <p>
+                &rarr; Build confidence in basic arithmetic, algebra, and
+                geometry
+              </p>
+              <p>
+                &rarr; Personalized learning pace and flexible tutoring plans
+              </p>
+              <p>
+                &rarr; Focus on improving problem-solving and critical thinking
+                skills
+              </p>
+              <p>
+                &rarr; Preparation for general school exams and continuous
+                assessment
+              </p>
+            </div>
+          </div>
+          <button class="border px-4 py-2 w-fit mx-auto rounded-xl bg-slate-950 hover:border-slate-800 duration-200 cursor-pointer">Book a session</button>
+        </div>
+      </section>
+      <section id="reviews" class="flex gap-4 flex-col max-w-5xl mx-auto px-2 sm:px-4 md:px-6 py-8">
+        <p class="text-center border px-4 py-2 rounded-xl w-fit mx-auto shadow-xl shadow-blue-300 bg-blue-100 text-blue-500 ">Stories of Success</p>
+        <div class="flex flex-col justify-center items-center gap-2">
+          <h3 class="font-serif text-xl sm:text-3xl md:text-5xl">What Students Say</h3>
+          <p>See what my students say about our classes</p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-slate-200 p-4 rounded-xl flex flex-col gap-4">
+              <div class="flex justify-between flex-wrap items-center gap-4">
+                <p class="text-2xl sm:text-3xl md:text-4xl font-serif">Pierre</p>
+                <p class="border border-slate-800 px-2 py-1 rounded-2xl bg-blue-100 text-blue-500 shadow-xl shadow-blue-300">Student</p>
+              </div>
+              <p>
+                Algebra was really hard for me, and I was falling behind. But my
+                tutor goes over everything slowly and doesn&apos;t make me feel
+                dumb for asking questions. Now I actually understand what&apos;s
+                going on in class, and my grades are getting better too.
+              </p>
+            </div>
+             <div class="bg-slate-200 p-4 rounded-xl flex flex-col gap-4">
+              <div class="flex justify-between flex-wrap items-center gap-4">
+                <p class="text-2xl sm:text-3xl md:text-4xl font-serif">Pierre</p>
+                <p class="border border-slate-800 px-2 py-1 rounded-2xl bg-blue-100 text-blue-500 shadow-xl shadow-blue-300">Student</p>
+              </div>
+              <p>
+                As someone who hasn&apos;t enjoyed maths before, James made it
+                feel much easier and helped me make sense of what I am learning
+                in class. Thanks James.
+              </p>
+            </div>
+             <div class="bg-slate-200 p-4 rounded-xl flex flex-col gap-4">
+              <div class="flex justify-between flex-wrap items-center gap-4">
+                <p class="text-2xl sm:text-3xl md:text-4xl font-serif">Pierre</p>
+                <p class="border border-slate-800 px-2 py-1 rounded-2xl bg-blue-100 text-blue-500 shadow-xl shadow-blue-300">Student</p>
+              </div>
+              <p>
+                I needed help with maths because I don&apos;t like my teachers
+                but I didn&apos;t want to fail my final year exams. James really
+                knew how to explain things in a way that I could understand and
+                I ended up doing better than expected :D
+              </p>
+            </div>
+          </div>
+      </section>
+    </main>
+    
+  </body>
+</html>
