@@ -1,0 +1,2 @@
+# tailwind v4
+there have one thing must memorize always that for parents div must give "group" class and then base on parents we can design the child design like(group-hover: bg-green-300)-------this design is for child.
